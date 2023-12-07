@@ -1,0 +1,268 @@
+@charset "UTF-8";
+
+/*全体*/
+/*html{
+  font-size: 100%;
+}*/
+
+html {
+  box-sizing: border-box;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  font-family: "Helvetica Neue",
+  Arial,
+  "Hiragino Kaku Gothic ProN",
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif;;
+}
+
+/*body{
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+  line-height: 1.7;
+  color: #432;
+}*/
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+p.center:hover{
+  background: #0090aa;
+}
+
+p.center{
+  background-color: #c9e9f5;
+}
+
+img{
+  max-width: 100%;
+}
+
+.wrapper{
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.home-back{
+  margin-top: 100px;
+  text-decoration: underline;
+  transform: scale(1.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+.home-back:hover{
+  background-color: #0090aa;
+}
+
+
+/*ヘッダー部分*/
+
+
+
+#news{
+  background-image: url(../img/news_top.jpg);
+  height: 30rem;
+  margin-bottom: 50px;
+  background-size: cover;
+  background-position: center top;
+}
+
+/*.page-header{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  background-color: #2abefe;
+}*/
+
+.page-header {
+  padding: 14px 100px 14px 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color:#fff;
+}
+
+.main-nav{
+  display: flex;
+  font-size: 1.00rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  list-style: none;
+}
+
+.sub-nav{
+  margin-right: 15px;
+}
+
+.sub-nav:hover{
+  background: #0090aa;
+}
+
+.page-title{
+  font-size: 6rem;
+  padding-top: 70px;
+  font-family: 'Philosopher', serif;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+/*newsの内容(news-contents部分)*/
+
+.news-contents{
+  margin-bottom: 50px;
+}
+
+/*nav部分*/
+
+.nav-news{
+  background-color: #c9e9f5;
+  margin-bottom: 100px;
+  padding: 30px;
+}
+
+.nav-title{
+  padding: 10px;
+}
+
+.nav-list{
+  list-style:disc
+}
+
+.nav-list a:hover{
+  color: #0bd;
+}
+
+/*.nav-list a{
+  color: #e62246;
+}*/
+
+/*article部分*/
+
+.article-news{
+   margin-bottom: 100px;
+}
+
+.schedule-title{
+  border-bottom: 3px #2abefe solid;  
+  margin-bottom: 20px;
+}
+
+.update{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.year-describe{
+  padding: 100px;
+  border-bottom: 3px #2abefe solid; 
+  margin-bottom: 20px;
+}
+
+.schedule-section{
+  font-size: 150%;
+  text-decoration: underline;
+  color: #2abefe;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.schedule-first{
+  padding: 80px;
+}
+
+.schedule-second{
+  padding: 80px;
+}
+
+.schedule-third{
+  padding: 80px;
+}
+
+.schedule-table{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1.25rem;
+  text-decoration: underline;
+}
+
+table{
+  padding: 20px;
+}
+
+th, td{
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.rest{
+  background-color: #d1c8b6;
+}
+
+.team-theme{
+  background-color: #e887aa;
+}
+
+/*footer*/
+
+footer {
+  height: 100px;
+  position: relative;
+  background-color: rgb(86, 205, 252);
+}
+
+footer p {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+}
+
+
+/*news-1 2023年度受講生向け:授業資料集*/
+
+.googlefolder{
+  padding: 30px;
+}
+
+.googlefolder .center{
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+
+/*about-1 そもそもenPiTって？*/
+
+.box{
+  border: #c9e9f5 10px solid;
+  padding: 20px;
+  margin: 20px;
+}
+
+.field_box{
+  border: #2d3331 3px solid;
+  padding: 20px;
+  margin: 20ox;
+  margin-bottom: 50px;
+}
+
+.enpit_toha{
+  margin: 50px;
+  padding: 50px;
+}
