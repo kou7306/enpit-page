@@ -1,3 +1,3 @@
 # enpit-page
 
-https://minnadezuo-rou.enpit2023.repl.co/
+https://kou7306.github.io/enpit-page/
